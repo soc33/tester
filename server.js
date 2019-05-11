@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/webdevdepot", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds155086.mlab.com:55086/heroku_w6b1b0dq", { useNewUrlParser: true });
 
 // Start the API server
 app.listen(PORT, () => {
