@@ -1,0 +1,18 @@
+
+.content-wrapper {
+    position: relative;
+    min-width: auto;
+    display: block;
+    border-radius: 6px;
+    background-color: #088ad1;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-overflow: clip;
+  }
+
+  @media screen and (min-width: 1088px) {
+.container {
+    max-width: 100%!important;
+}
+  }

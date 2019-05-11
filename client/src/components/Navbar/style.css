@@ -1,0 +1,40 @@
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-item:hover {
+  background-color: black !important;
+}
+
+.navbar-item i:hover {
+  color: #088ad1!important;
+}
+
+.navbar-item a:hover {
+  color: navy!important;
+}
+
+.navbar-start a {
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: black;
+    border: 2px solid lightgray;
+  }
+}
+
+@media screen and (max-width: 1087px) {}
+.navbar-menu.is-active {
+    float: right;
+    width: 220px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1087px) {}
+.navbar-menu.is-active .buttons {
+    display: block;
+}

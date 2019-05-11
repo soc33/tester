@@ -1,0 +1,18 @@
+body {
+  padding-right: 5px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* placed here for Admin pages */
+.table tr.is-selected {
+  background-color: navy;
+  color: white;
+}

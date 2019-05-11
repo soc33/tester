@@ -1,0 +1,49 @@
+.resource-card {
+  display: inline-table;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 6px;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.resource-card a {
+  font-size: 20px;
+  color: blue;
+}
+
+.resource-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: 0.1s;
+}
+
+.resource-card footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+}
+
+.resource-link {
+  font-family: "Just Another Hand", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 25px !important;
+  color: black !important;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.clicked {
+  color: green;
+}
+
+.favorited {
+  color: yellow;
+}
+
+.liked {
+  color: white;
+}

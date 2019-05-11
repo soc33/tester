@@ -1,0 +1,13 @@
+.form-modal .modal-card {
+    width: 400px; 
+    border-radius: 6px;
+}
+
+.form-modal .modal-card-head {
+    background-color: #088ad1;
+}
+
+.form-modal .modal-card-title {
+    color: white;
+}
+

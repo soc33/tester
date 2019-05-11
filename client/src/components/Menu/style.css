@@ -1,0 +1,70 @@
+.sidebar {
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    height: calc(100% - 60px);
+    width: 210px;
+    border-radius: 6px;
+    border-right: 1px solid black;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .menu-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 500px;
+    padding-left: 10px;
+    height: calc(100% - 50px);
+  }
+  .menu {
+    height: auto;
+  }
+
+  .menu-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .menu-label a {
+    color: gray;
+  }
+
+  .menu-label a.is-active {
+    color: blue;
+  }
+
+  .menu-label a:hover {
+    color: black;
+  }
+
+  .menu-label .icon {
+    float: right;
+    color: #0080ff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .menu-parent {
+    font-weight: bold;
+  }
+  
+  .menu-child {
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .search-box {
+    padding: 2px;
+  }
+
+  .search-box input {
+    border: 1px solid black;
+    color: black;
+  }
+
+  .sidebar .field {
+    margin-bottom: 0!important;
+  }

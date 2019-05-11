@@ -1,0 +1,9 @@
+.confirm-modal .modal-card {
+    width: 250px; 
+    border-radius: 6px;
+}
+
+.confirm-modal .modal-card-head{
+    text-align: left;
+}
+

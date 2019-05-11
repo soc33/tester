@@ -1,0 +1,17 @@
+.hero-body {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.hero h2 {
+  margin-bottom: 0px !important;
+}
+
+.hero a {
+  font-size: 12px;
+  color: #088ad1 !important;
+}
+
+.hero a:hover {
+  color: white !important;
+}
